@@ -3,6 +3,7 @@ from automet.afm import AFMAnalyzer
 from automet.sem import SEMAnalyzer
 from automet.ir import IRAnalyzer
 from automet.hysteresis import HysteresisAnalyzer
+from automet.profilometer import ProfilometerAnalyzer
 
 __version__ = "0.1.0"
 __all__ = [
@@ -11,4 +12,5 @@ __all__ = [
     "SEMAnalyzer",
     "IRAnalyzer",
     "HysteresisAnalyzer",
+    "ProfilometerAnalyzer",
 ]
